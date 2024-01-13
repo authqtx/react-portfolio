@@ -1,4 +1,3 @@
-import * from 'react'
 import './index.css'
 
 function App() {
@@ -6,7 +5,9 @@ function App() {
 
   return (
     <>
-<h1>Auth</h1>
+    <div class="text-gray-50 font-Silkscreen font-normal text-2xl flex justify-center items-center ">
+      <h1>Auth</h1>
+    </div>
     </>
   )
 }
