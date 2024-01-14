@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import { useEffect, useState } from "react";
 import Ovalsvg from "../svgs/oval.svg"; // Replace with the correct path to your Ovalsvg file
 
 const draw = {
@@ -14,6 +15,23 @@ const draw = {
 };
 
 const Name = () => {
+  const [svgWidth, setSvgWidth] = useState("100%");
+
+  useEffect(() => {
+    const handleResize = () => {
+      const newWidth = window.innerWidth >= 768 ? "150%" : "100%";
+      setSvgWidth(newWidth);
+    };
+
+    handleResize(); // Set initial width on component mount
+
+    window.addEventListener("resize", handleResize);
+
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
+
   return (
     <div className="relative">
       <div className="text-gray-50 font-Silkscreen font-normal text-8xl md:text-9xl mt-28 mx-4 md:mt-48 md:mx-44 lg:mr-80 ">
@@ -21,7 +39,7 @@ const Name = () => {
       </div>
       <motion.div className="svg-container absolute top-0 left-0 md:left-36">
         <motion.svg
-          width="150%"
+          width={svgWidth}
           height="auto"
           viewBox="0 0 436 159"
           initial="hidden"

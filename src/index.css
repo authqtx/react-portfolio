@@ -10,5 +10,7 @@
 }
 
 body {
+    inset: 0;
     background-color: #091922;
+    overflow: hidden;
 }
