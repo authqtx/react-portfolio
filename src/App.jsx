@@ -1,13 +1,13 @@
 import React from 'react';
 import Name from './components/Name';
 import './index.css';
-import HuTao from './components/HuTao';
+import Links from './components/Links';
 
 function App() {
   return (
     <>
       <Name />
-     <HuTao />
+     <Links />
     </>
   );
 }

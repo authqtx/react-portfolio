@@ -11,8 +11,50 @@
 
 body {
     inset: 0;
-    background-color: #091922;
+    background-color: #f2f2f2;
     overflow-x: hidden;
 }
+
+.container {
+    position: relative;
+    width: 200px; /* Adjust the total width of the container */
+    height: 200px; /* Adjust the total height of the container */
+}
+
+.circle-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100px; /* Adjust the size of the circle */
+    height: 100px; /* Adjust the size of the circle */
+    animation: spin 4s linear infinite; /* Adjust the speed and duration of the animation */
+}
+
+.static-container {
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+}
+
+.instagram-icon {
+    width: 100%; /* Make sure the SVG takes the full width of the container */
+    height: 100%; /* Make sure the SVG takes the full height of the container */
+}
+
+.insta-icon {
+    width: 30px; /* Adjust the size of the static icon */
+    height: 30px; /* Adjust the size of the static icon */
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
 
 
