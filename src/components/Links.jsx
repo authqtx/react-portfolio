@@ -25,13 +25,15 @@ const Links = () => {
             animate={{ opacity: 0, scale: 1 }}
             exit={{ opacity: 0, scale: 1 }}
           >
+            <div class="pointer-events-none">
             <img src={instagram} alt="Instagram" className="instagram-icon" />
+            </div>
           </motion.div>
         </div>
 
         <div className="container">
           <motion.div className="static-container" whileHover={{ scale: 1.2 }}>
-            <div class="rounded-full p-4 bg-indigo-100 z-1">
+            <div class="rounded-full p-4 bg-indigo-100 z-1 pointer-events-none">
                 <img src={linkedicon} alt="linkedin Icon" className="linked-icon" />
             </div>
           </motion.div>
@@ -43,7 +45,7 @@ const Links = () => {
             animate={{ opacity: 0, scale: 1 }}
             exit={{ opacity: 0, scale: 1 }}
           >
-            <div class="">
+            <div class="pointer-events-none">
             <img src={linkedin} alt="linkedin" className="linked-icon " />
                 </div>
           </motion.div>

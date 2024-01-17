@@ -7,7 +7,7 @@ const draw = {
     pathLength: 1,
     opacity: 1,
     transition: {
-      pathLength: { type: "spring", duration: 3, bounce: 0 },
+      pathLength: { type: "spring", duration: 6, bounce: 0 },
       opacity: { duration: 0.01 },
     },
   },
