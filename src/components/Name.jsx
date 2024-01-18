@@ -33,7 +33,7 @@ const Name = () => {
 
   return (
     <div className="relative">
-      <div className="text-blue-950 font-Silkscreen font-normal flex justify-start text-8xl md:text-9xl  ml-12 mt-52 mx-0 md:mt-48 md:mx-44 lg:mr-96 ">
+      <div className="text-blue-950 font-Silkscreen font-normal flex justify-start text-8xl md:text-9xl  ml-10 mt-52 mx-0 md:mt-48 md:mx-44 lg:mr-96 ">
         <h1>Auth</h1>
       </div>
       <motion.div className="svg-container absolute md:top-0 top-2 left-0 ml-12 md:ml-0 md:left-36">
