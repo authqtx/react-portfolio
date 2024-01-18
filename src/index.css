@@ -1,78 +1,71 @@
+/* index.css */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-  
 
 @font-face {
-    font-family: 'Silkscreen';
-    font-weight: 900;
-    src: local('Silkscreen'), url(./fonts/Silkscreen-Regular.ttf) format('truetype');
+  font-family: 'Silkscreen';
+  font-weight: 900;
+  src: local('Silkscreen'), url(./fonts/Silkscreen-Regular.ttf) format('truetype');
 }
 
 body {
-    inset: 0;
-    background-color: #f2f2f2;
-    overflow-x: hidden;
+  inset: 0;
+  background-color: #f2f2f2;
+  overflow-x: hidden;
 }
 
 .container {
-    position: relative;
-    width: 200px; /* Adjust the total width of the container */
-    height: 200px; /* Adjust the total height of the container */
+  position: relative;
+  width: 200px;
+  height: 200px;
 }
 
 .circle-container {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100px; /* Adjust the size of the circle */
-    height: 100px; /* Adjust the size of the circle */
-    animation: spin 4s linear infinite; /* Adjust the speed and duration of the animation */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100px;
+  height: 100px;
+  animation: spin 4s linear infinite;
 }
 
 .static-container {
-    position: absolute;
-    top: 25%;
-    left: 25%;
-    transform: translate(-50%, -50%);
+  position: absolute;
+  top: 25%;
+  left: 25%;
+  transform: translate(-50%, -50%);
 }
 
-.instagram-icon {
-    width: 100%; /* Make sure the SVG takes the full width of the container */
-    height: 100%; /* Make sure the SVG takes the full height of the container */
-}
-
-.insta-icon {
-    width: 30px; /* Adjust the size of the static icon */
-    height: 30px; /* Adjust the size of the static icon */
+.social-icon {
+  width: 100%;
+  height: 100%;
 }
 
 @keyframes spin {
-    from {
-        transform: rotate(0deg);
-    }
-    to {
-        transform: rotate(360deg);
-    }
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
 
-
-
-
 .fade-enter {
-    opacity: 0;
-  }
+  opacity: 0;
+}
 
-  .fade-enter-active {
-    transition: opacity 0.5s;
-    opacity: 1;
-  }
+.fade-enter-active {
+  transition: opacity 0.5s;
+  opacity: 1;
+}
 
-  .fade-exit {
-    opacity: 1;
-  }
+.fade-exit {
+  opacity: 1;
+}
 
-  .fade-exit-active {
-    transition: opacity 0.5s;
-    opacity: 0;
-  }
+.fade-exit-active {
+  transition: opacity 0.5s;
+  opacity: 0;
+}
+
