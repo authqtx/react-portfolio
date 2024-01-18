@@ -4,9 +4,27 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: 'Silkscreen';
+  font-family: "Silkscreen";
   font-weight: 900;
-  src: local('Silkscreen'), url(./fonts/Silkscreen-Regular.ttf) format('truetype');
+  src:
+    local("Silkscreen"),
+    url(./fonts/Silkscreen-Regular.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Sora";
+  font-weight: 900;
+  src:
+    local("Silkscreen"),
+    url(./fonts/Sora-VariableFont_wght.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Lato";
+  font-weight: 900;
+  src:
+    local("Silkscreen"),
+    url(./fonts/Lato-Regular.ttf) format("truetype");
 }
 
 body {
@@ -68,4 +86,3 @@ body {
   transition: opacity 0.5s;
   opacity: 0;
 }
-
