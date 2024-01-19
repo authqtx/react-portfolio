@@ -13,7 +13,7 @@ function App() {
       <Links />
       <section>
         {/* Using the ParallaxText component */}
-        <ParallaxText baseVelocity={-10}>REACTJS</ParallaxText>
+        <ParallaxText baseVelocity={-2}>REACTJS NEXTJS NODEJS</ParallaxText>
         <ParallaxText baseVelocity={2}>GASP FRAMER-MOTION REACT-SPRING</ParallaxText>
       </section>
     </>

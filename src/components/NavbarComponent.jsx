@@ -17,13 +17,13 @@ const NavbarComponent = ({ title }) => {
   return (
     // Header container with a blurred backdrop
     <header className="fixed top-0 left-0 right-0 p-4 font-Lato">
-      <div className="rounded-full bg-slate-300 bg-opacity-50 p-4 flex flex-col md:flex-row justify-end items-center backdrop-filter backdrop-blur-md">
+      <div className="rounded-full bg-slate-100 bg-opacity-50 p-4 flex flex-col md:flex-row justify-end items-center backdrop-filter backdrop-blur-md">
         <div className="flex space-x-4 md:space-x-8">
           {/* Docs Section */}
           <div className="">
             <a
               href="#docs"
-              className={`text-slate-400 mb-2 md:mb-0 md:mr-2 ${activeSection === "docs" ? "active" : ""}`}
+              className={`text-white mb-2 md:mb-0 md:mr-2 ${activeSection === "docs" ? "active" : ""}`}
               onClick={() => handleSectionClick("docs")}
             >
               Docs
@@ -35,7 +35,7 @@ const NavbarComponent = ({ title }) => {
           <div className="">
             <a
               href="#contact"
-              className={`text-slate-400 mb-2 md:mb-0 md:mr-2 ${activeSection === "contact" ? "active" : ""}`}
+              className={`text-white mb-2 md:mb-0 md:mr-2 ${activeSection === "contact" ? "active" : ""}`}
               onClick={() => handleSectionClick("contact")}
             >
               Contact Us
@@ -47,7 +47,7 @@ const NavbarComponent = ({ title }) => {
           <div className="">
             <a
               href="#about"
-              className={`text-slate-400 mb-2 md:mb-0 ${activeSection === "about" ? "active" : ""}`}
+              className={`text-white mb-2 md:mb-0 ${activeSection === "about" ? "active" : ""}`}
               onClick={() => handleSectionClick("about")}
             >
               About Me

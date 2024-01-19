@@ -31,7 +31,7 @@ const ParallaxText = ({ children, baseVelocity = 100 }) => {
   });
 
   return (
-    <div className="parallax" style={{ transform: "translateY(-400px)" }}>
+    <div className="parallax text-white" style={{ transform: "translateY(-300px)" }}>
       {/* Apply translateY to lift the entire component */}
       <motion.div className="scroller" style={{ x }}>
         <span>{children} </span>

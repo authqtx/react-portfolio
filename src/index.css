@@ -29,7 +29,7 @@
 
 body {
   inset: 0;
-  background-color: #f2f2f2;
+  background-color: #202024;
   overflow-x: hidden;
 }
 
@@ -185,20 +185,10 @@ h2 {
 }
 
 section {
-  padding-top: 85vh;
-  padding-bottom: 85vh;
-  position: relative;
+  margin-top: 500px;
 }
 
-img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  width: 100%;
-  height: 100%;
-}
+
 
 .progress {
   position: fixed;
