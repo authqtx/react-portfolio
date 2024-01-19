@@ -10,12 +10,13 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@motionone/utils": "^10.17.0",
     "@nextui-org/navbar": "^2.0.27",
     "@nextui-org/react": "^2.2.9",
     "@nextui-org/system": "^2.0.15",
     "@nextui-org/theme": "^2.1.17",
     "framer-motion": "^10.18.0",
-    "gsap": "^3.12.4",
+    "gsap": "^3.12.5",
     "keep-react": "^1.1.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
