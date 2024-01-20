@@ -9,6 +9,7 @@ export default {
     extend: {
       colors: {
         "blue-fr": "#112969",
+        "pink-fr": "#fcc1f3",
       },
       fontFamily: {
         Silkscreen: ["Silkscreen", "sans"],
@@ -17,4 +18,7 @@ export default {
       },
     },
   },
+  plugins: [
+    // ... other plugins
+  ],
 };

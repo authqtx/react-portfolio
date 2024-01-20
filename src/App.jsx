@@ -16,6 +16,7 @@ function App() {
         <ParallaxText baseVelocity={-2}>REACTJS NEXTJS NODEJS</ParallaxText>
         <ParallaxText baseVelocity={2}>GASP FRAMER-MOTION REACT-SPRING</ParallaxText>
       </section>
+      
     </>
   );
 }
