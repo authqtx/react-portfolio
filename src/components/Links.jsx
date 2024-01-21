@@ -23,7 +23,7 @@ const Links = () => {
           >
             {/* Static container with hover animation */}
             <div className="static-container" whileHover={{ scale: 1.2 }}>
-              <div className="rounded-full p-4 bg-rose-100 flex items-center justify-center">
+              <div className="rounded-full p-4  flex items-center justify-center">
                 <img src={instaicon} alt="Insta Icon" className="insta-icon" />
               </div>
             </div>
@@ -56,7 +56,7 @@ const Links = () => {
           >
             {/* Static container with hover animation */}
             <div className="static-container" whileHover={{ scale: 1.2 }}>
-              <div className="rounded-full p-4 bg-indigo-100 z-1 pointer-events-none flex items-center justify-center">
+              <div className="rounded-full p-4 z-1 pointer-events-none flex items-center justify-center">
                 <img
                   src={linkedicon}
                   alt="LinkedIn Icon"
@@ -85,7 +85,7 @@ const Links = () => {
           <a href="mailto:Authfr@proton.me">
             {/* Static container with hover animation */}
             <div className="static-container" whileHover={{ scale: 1.2 }}>
-              <div className="rounded-full p-4 bg-gray-200 z-1 pointer-events-none flex items-center justify-center">
+              <div className="rounded-full p-4  z-1 pointer-events-none flex items-center justify-center">
                 <img src={gmailicon} alt="Gmail Icon" className="linked-icon" />
               </div>
             </div>

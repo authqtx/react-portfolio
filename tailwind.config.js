@@ -7,6 +7,9 @@ export default {
       21: "10rem",
     },
     extend: {
+      fontSize: {
+        "20xl": "6.6rem",
+      },
       colors: {
         "blue-fr": "#112969",
         "pink-fr": "#fcc1f3",
@@ -15,6 +18,12 @@ export default {
         Silkscreen: ["Silkscreen", "sans"],
         Sora: ["Sora", "sans"],
         Lato: ["Lato", "sans"],
+        GrapeNuts: ["GrapeNuts", "sans"],
+        Inter: ["Inter", "sans"],
+        Satoshi: ["Satoshi", "sans"],
+      },
+      margin: {
+        128: "28rem",
       },
     },
   },

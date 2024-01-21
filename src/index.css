@@ -20,6 +20,22 @@
 }
 
 @font-face {
+  font-family: "Satoshi";
+  font-weight: 900;
+  src:
+    local("Silkscreen"),
+    url(./fonts/Satoshi-Medium.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "GrapeNuts";
+  font-weight: 900;
+  src:
+    local("Silkscreen"),
+    url(./fonts/GrapeNuts-Regular.ttf) format("truetype");
+}
+
+@font-face {
   font-family: "Lato";
   font-weight: 900;
   src:
@@ -27,9 +43,17 @@
     url(./fonts/Lato-Regular.ttf) format("truetype");
 }
 
+@font-face {
+  font-family: "Inter";
+  font-weight: 900;
+  src:
+    local("Silkscreen"),
+    url(./fonts/Inter-Medium.ttf) format("truetype");
+}
+
 body {
   inset: 0;
-  background-color: #1b1b1b;
+  background-color: #000000;
   overflow-x: hidden;
 }
 
@@ -86,13 +110,6 @@ body {
   transition: opacity 0.5s;
   opacity: 0;
 }
-
-
-img {
-  mix-blend-mode: multiply;
-}
-
-
 
 h2 {
   font-weight: 400;
@@ -168,10 +185,11 @@ code {
 }
 
 html {
+
+
+  
   scroll-snap-type: y mandatory;
 }
-
-
 
 h2 {
   margin: 0;
@@ -187,8 +205,6 @@ h2 {
 section {
   margin-top: 500px;
 }
-
-
 
 .progress {
   position: fixed;
@@ -243,11 +259,4 @@ section {
   border: none;
   padding: 5px 10px;
   cursor: pointer;
-}
-
-.Auth {
-  background: linear-gradient(176deg, rgba(10, 173, 192, 1) 0%, rgba(24, 226, 79, 1) 80%);
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent;
 }

@@ -17,7 +17,7 @@ const NavbarComponent = ({ title }) => {
   return (
     // Header container with a blurred backdrop
     <header className="fixed top-0 left-0 right-0 p-4 font-Lato backdrop-blur-2xl grayscale-8">
-      <div className="rounded-full bg-slate-100 bg-opacity-50 p-4 flex flex-col md:flex-row justify-end items-center backdrop-blur-2xl">
+      <div className="  bg-opacity-50 p-4 flex flex-col md:flex-row justify-end items-center backdrop-blur-2xl">
         <div className="flex space-x-4 md:space-x-8">
           {/* Docs Section */}
           <div className="">

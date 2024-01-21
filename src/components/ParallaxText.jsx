@@ -1,6 +1,14 @@
 // ParallaxText.jsx
 import React, { useRef } from "react";
-import { motion, useScroll, useSpring, useTransform, useMotionValue, useVelocity, useAnimationFrame } from "framer-motion";
+import {
+  motion,
+  useScroll,
+  useSpring,
+  useTransform,
+  useMotionValue,
+  useVelocity,
+  useAnimationFrame,
+} from "framer-motion";
 import { wrap } from "@motionone/utils";
 
 const ParallaxText = ({ children, baseVelocity = 100 }) => {
@@ -11,7 +19,9 @@ const ParallaxText = ({ children, baseVelocity = 100 }) => {
     damping: 50,
     stiffness: 400,
   });
-  const velocityFactor = useTransform(smoothVelocity, [0, 1000], [0, 5], { clamp: false });
+  const velocityFactor = useTransform(smoothVelocity, [0, 1000], [0, 5], {
+    clamp: false,
+  });
 
   const x = useTransform(baseX, (v) => `${wrap(-20, -45, v)}%`);
 
@@ -31,7 +41,10 @@ const ParallaxText = ({ children, baseVelocity = 100 }) => {
   });
 
   return (
-    <div className="parallax text-pink-fr" style={{ transform: "translateY(-300px)" }}>
+    <div
+      className="parallax text-white font-BebasNeue"
+      style={{ transform: "translateY(-300px)" }}
+    >
       {/* Apply translateY to lift the entire component */}
       <motion.div className="scroller" style={{ x }}>
         <span>{children} </span>

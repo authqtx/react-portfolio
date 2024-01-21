@@ -6,17 +6,19 @@ import NavbarComponent from "./components/NavbarComponent";
 import ParallaxText from "./components/ParallaxText";
 
 function App() {
-  return(
+  return (
     <>
-      <NavbarComponent />
       <Name />
       <Links />
       <section>
         {/* Using the ParallaxText component */}
-        <ParallaxText baseVelocity={-2}>REACTJS NEXTJS NODEJS</ParallaxText>
-        <ParallaxText baseVelocity={2}>GASP FRAMER-MOTION REACT-SPRING</ParallaxText>
+        <ParallaxText baseVelocity={-2}>
+          REACTJS‎ ‎ ‎ ‎ ‎ NEXTJS‎ ‎ ‎ ‎ ‎ NODEJS‎ ‎ ‎ ‎ ‎ EXPRESSJS{" "}
+        </ParallaxText>
+        <ParallaxText baseVelocity={2}>
+          GASP‎ ‎ ‎ ‎ ‎ FRAMER-MOTION‎ ‎ ‎ ‎ ‎ REACT-SPRING
+        </ParallaxText>
       </section>
-      
     </>
   );
 }
