@@ -13,10 +13,10 @@ function App() {
       <section>
         {/* Using the ParallaxText component */}
         <ParallaxText baseVelocity={-2}>
-          REACTJS‎ ‎ ‎ ‎ ‎ NEXTJS‎ ‎ ‎ ‎ ‎ NODEJS‎ ‎ ‎ ‎ ‎ EXPRESSJS{" "}
+          REACTJS‎ ‎ ‎ ‎NEXTJS‎ ‎ ‎ ‎ ‎NODEJS‎ ‎ ‎ ‎ ‎ EXPRESSJS ‎ ‎ ‎ ‎ ‎{" "}
         </ParallaxText>
         <ParallaxText baseVelocity={2}>
-          GASP‎ ‎ ‎ ‎ ‎ FRAMER-MOTION‎ ‎ ‎ ‎ ‎ REACT-SPRING
+          GASP‎ ‎ ‎ ‎ ‎FRAMER-MOTIO ‎ ‎ ‎ ‎ ‎REACT-SPRING
         </ParallaxText>
       </section>
     </>
