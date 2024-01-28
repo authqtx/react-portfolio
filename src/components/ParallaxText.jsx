@@ -42,7 +42,7 @@ const ParallaxText = ({ children, baseVelocity = 100 }) => {
 
   return (
     <div
-      className="parallax text-white font-BebasNeue"
+      className="parallax text-idk font-BebasNeue"
       style={{ transform: "translateY(-300px)" }}
     >
       {/* Apply translateY to lift the entire component */}

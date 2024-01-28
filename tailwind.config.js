@@ -13,6 +13,7 @@ export default {
       colors: {
         "blue-fr": "#112969",
         "pink-fr": "#fcc1f3",
+        "idk": "#9c9da3",
       },
       fontFamily: {
         Silkscreen: ["Silkscreen", "sans"],
