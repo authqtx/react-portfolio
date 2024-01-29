@@ -1,6 +1,7 @@
 import React from "react";
 import Name from "./components/Name";
 import "./index.css";
+import Bio from './components/Bio';
 import Links from "./components/Links";
 import NavbarComponent from "./components/NavbarComponent";
 import ParallaxText from "./components/ParallaxText";
@@ -8,8 +9,9 @@ import ParallaxText from "./components/ParallaxText";
 function App() {
   return (
     <>
-      <Name />
-      <Links />
+    <Name />
+    <Bio />
+    <Links />
       <section>
         {/* Using the ParallaxText component */}
         <ParallaxText baseVelocity={-2}>

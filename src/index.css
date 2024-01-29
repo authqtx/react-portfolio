@@ -28,6 +28,15 @@
 }
 
 @font-face {
+  font-family: "HankenGrotesk";
+  font-weight: 900;
+  src:
+    local("HankenGrotesk-Regular"),
+    url(./fonts/HankenGrotesk-Regular.ttf) format("truetype");
+}
+
+
+@font-face {
   font-family: "GrapeNuts";
   font-weight: 900;
   src:

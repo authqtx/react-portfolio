@@ -22,6 +22,7 @@ export default {
         GrapeNuts: ["GrapeNuts", "sans"],
         Inter: ["Inter", "sans"],
         Satoshi: ["Satoshi", "sans"],
+        HankenGrotesk: ["HankenGrotesk", "sans"],
       },
       margin: {
         128: "28rem",

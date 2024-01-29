@@ -13,7 +13,7 @@ const Links = () => {
   return (
     <>
       {/* Container for the links */}
-      <div className="flex justify-center left-14 md:left-0 right-0 mt-4 md:mt-8 absolute">
+      <div className="flex justify-center left-14 md:left-0 right-0 -mt-6 md:-mt-6 absolute">
         {/* Instagram Link */}
         <div className="container relative">
           <a
