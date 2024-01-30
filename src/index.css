@@ -1,7 +1,10 @@
 /* index.css */
+
+@import "keep-react/css";
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+  
 
 @font-face {
   font-family: "Silkscreen";
