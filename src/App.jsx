@@ -22,11 +22,7 @@ function App() {
           GASP‎ ‎ ‎ ‎ ‎FRAMER-MOTIO ‎ ‎ ‎ ‎ ‎REACT-SPRING
         </ParallaxText>
       </section>
-      <Card
-        imageUrl="https://i.pinimg.com/564x/b4/37/17/b437178f48f57a0484b9860d7e8c0b8d.jpg"
-        header="Discord Clone"
-        description="This is a simple card component with hover effect and background text."
-      />
+
     </>
   );
 }
