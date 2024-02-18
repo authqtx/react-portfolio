@@ -19,7 +19,7 @@ function App() {
           REACTJS‎ ‎ ‎ ‎NEXTJS‎ ‎ ‎ ‎ ‎NODEJS‎ ‎ ‎ ‎ ‎ EXPRESSJS ‎ ‎ ‎ ‎ ‎{" "}
         </ParallaxText>
         <ParallaxText baseVelocity={2}>
-          GASP‎ ‎ ‎ ‎ ‎FRAMER-MOTIO ‎ ‎ ‎ ‎ ‎REACT-SPRING
+          GASP‎ ‎ ‎ ‎ ‎FRAMER-MOTION ‎ ‎ ‎ ‎ ‎REACT-SPRING
         </ParallaxText>
       </section>
 
