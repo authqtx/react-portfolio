@@ -11,6 +11,7 @@ export default {
     extend: {
       fontSize: {
         "20xl": "6.6rem",
+        "clamp": "clamp(5.5rem, 8vw, 8rem)",
       },
       colors: {
         "blue-fr": "#112969",

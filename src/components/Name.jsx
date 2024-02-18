@@ -45,7 +45,7 @@ const Name = () => {
       {/* Container for the text and SVG */}
       <div className="relative">
         {/* Text element */}
-        <div className="  font-Satoshi text-bold font-normal flex justify-start text-20xl md:text-9xl   md:ml-128 ml-16 md:m mt-20 mx-0 md:mt-22  lg:mr-96 ">
+        <div className="  font-Satoshi text-bold font-normal flex justify-start text-clamp   md:ml-128 ml-16 md:m mt-20 mx-0 md:mt-22  lg:mr-96 ">
           <h1 className="Auth text-white font-Inter">Auth</h1>
         </div>
 
