@@ -49,7 +49,7 @@ const Name = () => {
           
           <h1 className="Auth text-white font-Inter ">Auth</h1>
           
-          <motion.div className="svg-container -ml-64 md:size-72 size-42 md:-ml-80 ">
+          <motion.div className="svg-container -ml-64 md:size-72 size-42 md:-ml-80 mt-2 md:-mt-0 ">
           {/* SVG element with motion animation */}
           <motion.svg
             width={svgWidth}
