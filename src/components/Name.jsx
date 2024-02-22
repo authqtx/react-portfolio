@@ -43,14 +43,13 @@ const Name = () => {
   return (
     <>
       {/* Container for the text and SVG */}
-      <div className="relative">
+      <div className="">
         {/* Text element */}
-        <div className="  font-Satoshi text-bold font-normal flex justify-start text-clamp   md:ml-128 ml-16 md:m mt-20 mx-0 md:mt-22  lg:mr-96 ">
-          <h1 className="Auth text-white font-Inter">Auth</h1>
-        </div>
-
-        {/* SVG container with Framer Motion animation */}
-        <motion.div className="svg-container absolute md:top-0 top-2 left-0 ml-12 md:ml-64 md:left-28">
+        <div className="  font-Satoshi text-bold font-normal flex justify-center items-center text-clamp   md:ml-80 -mr-8  md:-mt-2 mt-8 mx-0   lg:mr-96 ">
+          
+          <h1 className="Auth text-white font-Inter ">Auth</h1>
+          
+          <motion.div className="svg-container -ml-64 md:size-72 size-42 md:-ml-80 ">
           {/* SVG element with motion animation */}
           <motion.svg
             width={svgWidth}
@@ -71,6 +70,10 @@ const Name = () => {
             />
           </motion.svg>
         </motion.div>
+        </div>
+
+        {/* SVG container with Framer Motion animation */}
+
       </div>
 
    
